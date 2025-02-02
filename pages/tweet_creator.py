@@ -36,7 +36,13 @@ if uploaded_file is not None:
     file_name = uploaded_file.name
 
   raw_documents = PyPDFLoader(temp_file).load()
-  os.remove(temp_file)
+  try:
+    os.remove(file_path)
+    print(f"File '{file_path}' successfully deleted.")
+  except FileNotFoundError:
+    print(f"Error: File '{file_path}' not found.")
+  except OSError as e:
+    print(f"Error deleting file: {e}")
 
   documents = text_splitter.split_documents(raw_documents)
   # Process text input
