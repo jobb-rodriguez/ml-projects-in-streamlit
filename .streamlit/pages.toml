@@ -1,0 +1,9 @@
+[[pages]]
+path = "pages/intro.py"
+name = "Jobb's ML Projects"
+icon = "❄️"
+
+[[pages]]
+path = "pages/comment_analyzer.py"
+name = "Comment Analyzer"
+icon = "🔎"
