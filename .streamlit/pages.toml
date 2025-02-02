@@ -7,3 +7,8 @@ icon = "❄️"
 path = "pages/comment_analyzer.py"
 name = "Comment Analyzer"
 icon = "🔎"
+
+[[pages]]
+path = "pages/customer_segmentation.py"
+name = "Customer Segmentation"
+icon = "🔮"
