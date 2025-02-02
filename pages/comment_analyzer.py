@@ -18,6 +18,3 @@ if text:
     st.write("We received a negative review.")
 
   st.write("The confidence score is {:.2%}.".format(result[0]["score"]))
-
-  st.write(topic_model.predict(text))
-
