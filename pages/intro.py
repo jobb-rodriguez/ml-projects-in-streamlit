@@ -11,3 +11,7 @@ st.page_link("pages/customer_segmentation.py", icon="🔮")
 st.subheader("Classifying Dogs and Cats - Transfer Learning")
 st.write("Let's identify if an image is a dog or a cat. View the finals notebook I created when I was teaching Deep Learning in Ateneo de Naga University.")
 st.page_link("pages/dogs_vs_cats.py", icon="🐶")
+
+st.subheader("Tweet Creator - Retrieval-Augmented Generation")
+st.write("Upload a PDF and tweet about it.")
+st.page_link("pages/tweet_creator.py", icon="🐦")

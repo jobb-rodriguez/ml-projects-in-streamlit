@@ -17,3 +17,8 @@ icon = "🔮"
 path = "pages/dogs_vs_cats.py"
 name = "Dogs vs. Cats"
 icon = "🐶"
+
+[[pages]]
+path = "pages/tweet_creator.py"
+name = "Tweet Creator"
+icon = "🐦"
