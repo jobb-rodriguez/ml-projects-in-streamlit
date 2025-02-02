@@ -37,10 +37,10 @@ if uploaded_file is not None:
 
   raw_documents = PyPDFLoader(temp_file).load()
   try:
-    os.remove(file_path)
-    print(f"File '{file_path}' successfully deleted.")
+    os.remove(temp_file)
+    print(f"File '{temp_file}' successfully deleted.")
   except FileNotFoundError:
-    print(f"Error: File '{file_path}' not found.")
+    print(f"Error: File '{temp_file}' not found.")
   except OSError as e:
     print(f"Error deleting file: {e}")
 
