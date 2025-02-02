@@ -12,3 +12,8 @@ icon = "🔎"
 path = "pages/customer_segmentation.py"
 name = "Customer Segmentation"
 icon = "🔮"
+
+[[pages]]
+path = "pages/dogs_vs_cats.py"
+name = "Dogs vs. Cats"
+icon = "🐶"
